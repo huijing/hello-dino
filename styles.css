@@ -1,7 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 p {
   font-size: 3em;
 }
 
-em {
-  background-color: lemonchiffon;
+.container {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 150px 150px 150px;
+  justify-content: center;
+}
+
+p:first-child {
+}
+
+p:nth-child(2) {
+}
+
+p:nth-child(3) {
 }
